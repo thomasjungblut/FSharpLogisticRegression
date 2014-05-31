@@ -30,4 +30,4 @@ module OnlineLogisticRegression =
         let prediction = Predict(biasedFeature, currentParameters)
         let loss = prediction - outcome
         // do a gradient descent step into the gradient direction
-        DenseVector.OfVector(currentParameters.Subtract(biasedFeature.Multiply(loss).Multiply(learningRate)))
+        DenseVector.OfVector(currentParameters - (biasedFeature * (loss * learningRate)))
