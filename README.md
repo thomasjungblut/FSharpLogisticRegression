@@ -5,7 +5,7 @@ This F# program is doing a (stochastic) logistic regression on two randomly gene
 
 At the end it plots the randomly generated testset with the decision boundary that was learned before. 
 
-![LogisticRegression][LG_1]
+![LogisticRegression][separation.png "Logistic Regression"]
 
 More explanation can be found in [my blog post](http://codingwiththomas.blogspot.com/2014/05/stochastic-logistic-regression-in-f.html).
 
@@ -25,6 +25,3 @@ Since I am Apache committer, I consider everything inside of this repository
 licensed by Apache 2.0 license, although I haven't put the usual header into the source files.
 
 If something is not licensed via Apache 2.0, there is a reference or an additional licence header included in the specific source file.
-
-
-[LG_1]: http://imageshack.com/a/img837/9014/qziy.png "Logistic Regression"
