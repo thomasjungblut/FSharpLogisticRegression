@@ -5,7 +5,7 @@ This F# program is doing a (stochastic) logistic regression on two randomly gene
 
 At the end it plots the randomly generated testset with the decision boundary that was learned before. 
 
-![LogisticRegression][separation.png "Logistic Regression"]
+![LogisticRegression](separation.png "Logistic Regression")
 
 More explanation can be found in [my blog post](http://codingwiththomas.blogspot.com/2014/05/stochastic-logistic-regression-in-f.html).
 
